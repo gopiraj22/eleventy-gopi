@@ -1,7 +1,7 @@
 # SmartPage Design Doc
 
 ## Login Enhancement Use Case
-
+### PlantUML
 ```plantuml
 (Login) as (loginuc)
 (Account Lockout) as (lockoutuc)
@@ -15,6 +15,12 @@ SPUserNative --> (loginuc)
 
 (lockoutuc) .> (configuc)
 ```
+<pre>
+...work in progress
 
-## How does this work?
-[Eleventy Installation](./install11t)
+
+</pre>
+
+
+## How did this work?
+### Check here  [Eleventy 11ty Installation](./install11t)
