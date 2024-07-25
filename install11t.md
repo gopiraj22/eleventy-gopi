@@ -1,5 +1,5 @@
 ## One time work
-### Project
+### Project Eleventy (11ty)
 - Install Node.js V14 or above
 
 
@@ -21,11 +21,8 @@
          };
   </pre>
 
-### Deployment
-#### Local
-  -  npx @11ty/eleventy --serve
+### Deployment Netlify
 
-#### Site Hosting (Netlify through GitHub)
   -  Create a GitHub repo for the project
   -  If Private project, provide access to Netlify
   -  Check in all files into the repo except (may want to include a .gitignore file in your project)
@@ -42,8 +39,10 @@
 ## Your day to day work 
 - Add content files (markdown/html/asciidoc etc...)
 - Check-in to the GitHub repo
-
-- Your site is ready - [https://eleventygopi.netlify.app/](https://eleventygopi.netlify.app/)
+- Local Deployment
+    -  npx @11ty/eleventy --serve
+- http://localhost:8080/
+ 
 
 ## Ref
 - [https://www.11ty.dev/](https://www.11ty.dev/)
