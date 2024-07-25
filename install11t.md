@@ -32,7 +32,7 @@
      -    node_modules (dependency folder auto-generated in deployment)
      -    _site        (output folder auto-generated in deployment)
  - Signup with Netlify 
-   - https://app.netlify.com/signup 
+   - [https://app.netlify.com/signup](https://app.netlify.com/signup) 
    - Choose GitHub Option and complete the signup
  - Create a Site
    -  Sites > Add new Site> Import existing project> GitHub> <Your-Project>
@@ -43,8 +43,8 @@
 - Add content files (markdown/html/asciidoc etc...)
 - Check-in to the GitHub repo
 
-- Your site is ready - https://eleventygopi.netlify.app/
+- Your site is ready - [https://eleventygopi.netlify.app/](https://eleventygopi.netlify.app/)
 
 ## Ref
-- https://www.11ty.dev/
-- https://www.npmjs.com/package/eleventy-plugin-plantuml
+- [https://www.11ty.dev/](https://www.11ty.dev/)
+- [https://www.npmjs.com/package/eleventy-plugin-plantuml](https://www.npmjs.com/package/eleventy-plugin-plantuml)
