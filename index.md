@@ -1,26 +1,42 @@
-# SmartPage Design Doc
+# SmartPage Design Documentation
 
-## Login Enhancement Use Case
-### PlantUML
+<br></br>
+
+## Login Enhancements
+
+## Use Case Diagram
+
 ```plantuml
-(Login) as (loginuc)
-(Account Lockout) as (lockoutuc)
-(Display Password Strength) as (strengthuc)
-(App Configuration) as (configuc)
+actor NativeUser #Red/Yellow
+(Login) as (loginuc) 
+(Account Lockout) as (lockoutuc) #orange
+(Display Password Strength) as (strengthuc) #yellow
+(App Configuration) as (configuc) #orange
 
-SPUserNative --> (loginuc)
+NativeUser --> (loginuc)
 
 (loginuc) .>(lockoutuc) <<include>>
 (loginuc) .>(strengthuc) <<include>>
 
 (lockoutuc) .> (configuc)
 ```
-<pre>
-...work in progress
 
+<br></br>
 
-</pre>
+## Password Strength
 
+[Password Strength](./login-docs/displaystrength)
 
-## How did this work?
-### [Click here](./install11t)
+<br></br>
+
+## App Configuration
+
+[App Configuration Design](./login-docs/appconfig)
+
+<br></br>
+
+## Account Lockout
+
+[Account Lockout](./login-docs/acclockout)
+<br></br>
+
